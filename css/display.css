@@ -1,0 +1,37 @@
+.u-flxMid{
+  display: flex;
+  align-items: center;
+}
+
+.u-flxMidWrp{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.u-flxBet{
+  display: flex;
+  justify-content: space-between;
+
+}
+.u-flxMidBet{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.u-flxSteBet{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.u-flxMidBet{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.u-flxMidBetDirRev{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}

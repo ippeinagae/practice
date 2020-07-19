@@ -1,0 +1,91 @@
+/* --------------------------------------------------------------------------------
+ヘッダー 
+--------------------------------------------------------------------------------*/
+/*ロゴ
+--------------------------------------------------------------------------------*/
+.c-header__logo{
+  width: 4.7rem;
+  height: 4.7rem;
+}
+
+.c-header__title{
+  font-size: 2.4rem;
+  line-height: 1;
+  color: #333;
+}
+
+.c-caption--white{
+  color: #fff;
+}
+
+.p-sub_caption--white{
+  color: #fff;
+}
+
+/*グローバルナビ
+--------------------------------------------------------------------------------*/
+
+.c-gloval_nav__link{
+  color: #333;
+  font-size: 1.6rem;
+  line-height: 1;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.c-gloval_nav__link:hover{
+  opacity: 0.8;
+}
+
+/* お問い合わせボタン */
+.c-contact_btn{
+  border: none;
+  border-radius: 1rem;
+  padding: 1.1rem 3.6rem;
+  cursor: pointer;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(0,0,0,0.16);
+}
+/* --------------------------------------------------------------------------------
+  メインビジュアル
+--------------------------------------------------------------------------------*/
+/* タイトル */
+.c-main_visual__title{
+  font-size: 3.2rem;
+}
+
+/* 概要 */
+.c-main_visual__desc{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+
+/* メインページキャプション */
+.c-caption{
+  text-align: center;
+}
+
+/* テーブルリスト */
+.c-table{
+box-shadow: 0.2rem 0.2rem 0.5rem rgba(0,0,0,0.16);
+}
+
+/* --------------------------------------------------------------------------------
+  よくある質問
+--------------------------------------------------------------------------------*/
+.c-question,
+.c-answer{
+  font-size: 1.4rem;
+  color: #333;
+  font-weight: bold;
+  padding: 2.2rem 3.5rem;
+  border-bottom: 0.2rem solid rgba(0,0,0,0.16);
+  display: block;
+  cursor: pointer;
+}
+
+.c-answer{
+  background-color: #F2F2F2;
+  display: none;
+
+}

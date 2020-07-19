@@ -1,0 +1,265 @@
+.p-inner {
+  max-width: 102.2rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+
+/* --------------------------------------------------------------------------------
+  ヘッダー 
+--------------------------------------------------------------------------------*/
+/*グローバルナビ
+--------------------------------------------------------------------------------*/
+/* リストの余白 */
+.p-gloval_nav__item:not(:last-child) {
+  margin-right: 4.6rem;
+}
+
+/*お問い合わせボタン
+--------------------------------------------------------------------------------*/
+.p-contact_btn {
+  font-size: 1.4rem;
+  color: #fff;
+  line-height: 1;
+  background: linear-gradient(90deg, #FA41CC, #6020B0);
+  transition: all .3s;
+}
+
+.p-contact_btn:hover {
+  opacity: 0.8;
+}
+
+/* --------------------------------------------------------------------------------
+  メインビジュアル 
+--------------------------------------------------------------------------------*/
+.p-main_visual {
+  background: url(../img/circle.png) no-repeat;
+  background-position: top -13.4rem right -8.5rem;
+}
+
+.p-main_visual__copy {
+  max-width: 35.1rem;
+  padding-top: 16.8rem;
+  padding-bottom: 15.5rem;
+}
+
+/* --------------------------------------------------------------------------------
+  3つの特徴
+--------------------------------------------------------------------------------*/
+/* キャプション */
+.p-caption {
+  font-size: 3.2rem;
+}
+
+.p-sub_caption {
+  display: block;
+  font-size: 1.6rem;
+  color: #3ba6c9;
+}
+
+/* 特徴
+----------------------------------------------------------------------------------- */
+.p-feature__heading {
+  font-size: 2.8rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.p-feature__figure {
+  width: 38rem;
+}
+
+.p-feature__title {
+  font-size: 2.4rem;
+}
+
+.p-feature__desc {
+  font-size: 1.6rem;
+}
+
+/* --------------------------------------------------------------------------------
+  価格
+--------------------------------------------------------------------------------*/
+.p-price {
+  background-color: #eefbfb;
+}
+
+/* 価格リスト */
+.p-price_table {
+  background-color: #fff;
+  width: 100%;
+}
+
+.p-price_table__row {
+  border: 0.1rem solid #e5e5e5;
+}
+
+.p-price_table__head {
+  width: 30%;
+  border: 0.1rem solid #e5e5e5;
+  font-size: 1.6rem;
+  padding: 4rem 1.9rem;
+}
+
+.p-price_table__item {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding-left: 5rem;
+
+}
+
+/* 注釈 */
+.p-price__annountation {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* --------------------------------------------------------------------------------
+  よくある質問
+--------------------------------------------------------------------------------*/
+.p-question_box {
+  text-align: center;
+  border: 0.1rem solid #e5e5e5;
+
+}
+
+/* --------------------------------------------------------------------------------
+  ブログ
+--------------------------------------------------------------------------------*/
+.p-blog {
+  padding: 0 7rem;
+}
+
+.p-blog_card {
+  width: 28%;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.16);
+  position: relative;
+}
+
+.p-blog_card__title {
+  padding: 1.9rem 1.8rem 4rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.p-blog_card__time {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: right;
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  color: #333;
+}
+
+/* --------------------------------------------------------------------------------
+  制作実績
+--------------------------------------------------------------------------------*/
+.p-swiper_container {
+  width: 100%;
+}
+
+.swiper-slide {
+  width:25%;
+  min-width: 32rem;
+
+}
+
+.p-work_link {
+  display: block;
+  border: 0.1rem solid #ddd;
+  border-radius: 1rem;
+  margin-right: 3rem;
+}
+
+.p-work_card__title {
+  font-size: 1.6rem;
+  color: #333;
+  padding: 0 1.8rem;
+}
+
+.p-work_card__desc {
+  color: #333;
+  font-size: 1.4rem;
+  padding: 0 1.8rem;
+  font-weight: 600;
+  padding-bottom: 3.5rem;
+}
+
+/* --------------------------------------------------------------------------------
+  お問い合わせ
+--------------------------------------------------------------------------------*/
+.p-contact{
+  background: linear-gradient(45deg,#05A5FA,#63FBD7);
+}
+
+.p-contact__desc{
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+
+.p-sub_caption--white{
+  color: #fff;
+}
+
+.p-contact__form{
+  width: 100%;
+  background: #fff;
+  padding: 4rem 5rem 6rem;
+}
+
+.p-contact__label{
+  font-size: 1.6rem;
+  font-weight: 600;
+  
+}
+
+.p-contact__need{
+  display: inline-block;
+  background-color: #0C449B;
+  color: #fff;
+  border-radius: 1rem;
+  padding: .5rem 1.6rem;
+  font-size: 1.4rem;
+}
+
+.p-contact__personal-info{
+  font-size: 1.6rem;
+  display: block;
+  border: .1rem solid rgba(0, 0, 0, 0.16);
+  background: #EEFBFB;
+  width: 60%;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.p-contact__textarea{
+  width: 100%;
+  font-size: 1.6rem;
+  display: block;
+  border: .1rem solid rgba(0, 0, 0, 0.16);
+  background: #EEFBFB;
+  padding: 1rem;
+  border-radius: .5rem;
+  height: 17.9rem;
+}
+
+.p-contact__submit{
+  display: block;
+ margin: 0 auto;
+}
+
+/* --------------------------------------------------------------------------------
+  フッター
+--------------------------------------------------------------------------------*/
+.p-copy{
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+}

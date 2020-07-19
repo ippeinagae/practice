@@ -1,0 +1,19 @@
+/* ヘッダー */
+.l-header{
+width: 100%;
+position: fixed;
+box-shadow: 0 -0.3rem 0.6rem rgba(0,0,0,0.6);
+padding:2.4rem 0;
+z-index: 10;
+background-color: #fff;
+}
+
+/* メインタグ */
+.l-main{
+  width: 100%;
+  padding-top: 9.5rem;
+}
+
+.l-footer{
+  padding: 5.8rem 0 3.8rem;
+}

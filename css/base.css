@@ -1,0 +1,30 @@
+html{
+  font-size: 62.5%;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+  color: #333;
+  line-height: 1.68;
+  letter-spacing: 0.1rem;
+  background-color: #fff;
+
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  vertical-align: bottom;
+  object-fit: contain;
+  width: 100%;
+}
+
+button:focus{
+  outline: none;
+}
